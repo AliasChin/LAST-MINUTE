@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Sign Up Page</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<div class="signup-container">
+  <div class="logo-container">
+    <img src="logo.png" alt="Logo" class="logo"> <!-- Replace logo.png with the path to your logo image -->
+    <h1>Sign Up for SowCial</h1>
+    <p>Create a profile, follow other creators, make your own video, and more.</p>
+  </div>
+
+  <div class="signup-options">
+    <button class="signup-btn phone-email">Phone or Email</button>
+    <button class="signup-btn facebook">Continue with Facebook</button>
+    <button class="signup-btn google">Continue with Google</button>
+  </div>
+
+  <div class="login-link">
+    <p>Already have an account? <a href="log in page.html">Log in</a></p>
+  </div>
+</div>
+
+</body>
+</html>
+
+
+

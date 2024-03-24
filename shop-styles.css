@@ -1,0 +1,118 @@
+* {
+  box-sizing: border-box;
+}
+
+body, h1, h2, h3, p {
+  margin: 0;
+  padding: 0;
+}
+
+.shop-container {
+  max-width: 480px;
+  margin: 0 auto;
+  background-color: #fff;
+  min-height: 100vh;
+  font-family: 'Arial', sans-serif;
+  position: relative;
+}
+
+.top-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  background-color: #eee;
+}
+
+.category-title {
+  font-size: 20px;
+}
+
+.top-bar-icons {
+  display: flex;
+}
+
+.search-icon, .cart-icon, .profile-icon {
+  width: 24px;
+  height: 24px;
+  background-color: #ccc;
+  margin-left: 10px;
+  border-radius: 50%;
+}
+
+.product-filters {
+  display: flex;
+  justify-content: space-around;
+  padding: 10px;
+  background-color: #f8f8f8;
+}
+
+.filter {
+  font-size: 14px;
+}
+
+.products-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px;
+  padding: 10px;
+}
+
+.product-card {
+  background-color: #f0f0f0;
+  padding: 10px;
+  border-radius: 8px;
+}
+
+.product-image {
+  width: 100%;
+  display: block;
+}
+
+.product-info {
+  text-align: center;
+}
+
+.product-name {
+  font-size: 14px;
+  color: #333;
+}
+
+.product-price {
+  color: #666;
+}
+
+.product-rating {
+  font-size: 12px;
+  color: #888;
+}
+
+.bottom-nav {
+  display: flex;
+  justify-content: space-around;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #333;
+  padding: 10px 0;
+}
+
+.nav-item {
+  text-align: center;
+  color: white;
+}
+
+.nav-item.active {
+  color: green;
+}
+
+/* Icons would typically be added via an image or font icon library */
+.home-icon {
+  background-color: #ccc;
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+}
+
+/* Add responsive design and additional styling as needed */

@@ -1,0 +1,149 @@
+/* Reset some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Set up the document to use full height and prevent scrolling */
+  html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    background: #f7f7f7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+  }
+  
+  /* The main container for our app */
+ /* .app-container {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    background-color: #fff;
+  }
+*/
+  .app-container {
+    width: 390%;
+    height: 70%;
+    max-width: 400px;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+    overflow: hidden;
+    padding: 20px;
+  }
+  
+  
+  /* Top bar styling */
+  .top-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1em;
+    background-color: #eee;
+  }
+  
+  /* Search icon placeholder */
+  .search-icon {
+    width: 24px;
+    height: 24px;
+    background: #000;
+    border-radius: 50%;
+  }
+  
+  /* Content grid */
+  .content-grid {
+    flex-grow: 1;
+    background-image: url('grid.png'); /* Replace with your grid background */
+    background-size: cover;
+  }
+
+
+/* Interaction bar at the bottom */
+.interaction-bar {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+    background-color: #fff; /* Light background for visibility */
+  }
+  
+  .icon-container {
+    display: flex;
+  }
+  
+  .icon {
+    width: 40px;
+    height: 40px;
+    background-color: #ddd; /* Placeholder for the icons */
+    border-radius: 50%;
+    margin-right: 10px;
+  }
+  
+  .follow-btn {
+    background-color: #4CAF50; /* Green background */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 20px;
+    font-size: 16px;
+  }
+  
+  /* Bottom navigation styling */
+/* Bottom navigation styling */
+.bottom-nav {
+    display: flex;
+    justify-content: baseline;
+    align-items: center; /* Center items vertically */
+    position: fixed; /* Fixed position */
+    background-color: #f8f3f3; /* Light background color */
+    color: black; /* Text color */
+    height: 60px; /* Set a fixed height */
+    z-index: 1000; /* Make sure it's on top of other content */
+  }
+  
+  
+  .nav-icon {
+    flex: 1;
+    padding: 10px 0;
+    text-align: center;
+    background-color: #444; /* Slightly lighter background for icons */
+  }
+  
+  .home, .shop, .community, .profile {
+    /* placeholder for icons, replace with actual icons or use a font icon library */
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    margin-bottom: 5px;
+    background: no-repeat center/contain;
+  }
+  
+  .ant-design--home-outlined {
+    display: inline-block;
+    width: 2em;
+    height:42em;
+    --svg: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1024 1024'%3E%3Cpath fill='%23000' d='M946.5 505L560.1 118.8l-25.9-25.9a31.5 31.5 0 0 0-44.4 0L77.5 505a63.9 63.9 0 0 0-18.8 46c.4 35.2 29.7 63.3 64.9 63.3h42.5V940h691.8V614.3h43.4c17.1 0 33.2-6.7 45.3-18.8a63.6 63.6 0 0 0 18.7-45.3c0-17-6.7-33.1-18.8-45.2M568 868H456V664h112zm217.9-325.7V868H632V640c0-22.1-17.9-40-40-40H432c-22.1 0-40 17.9-40 40v228H238.1V542.3h-96l370-369.7l23.1 23.1L882 542.3z'/%3E%3C/svg%3E");
+    background-color: black;
+    -webkit-mask-image: var(--svg);
+    mask-image: var(--svg);
+    -webkit-mask-repeat: no-repeat;
+    mask-repeat: no-repeat;
+    -webkit-mask-size: 100% 100%;
+    mask-size: 100% 100%;
+  }
+  /* Assigning different background images for icons */
+  .home { background-image: url('icons/home.svg'); }
+  .shop { background-image: url('icons/shop.svg'); }
+  .community { background-image: url('icons/community.svg'); }
+  .profile { background-image: url('icons/profile.svg'); }
+  
+  /* Add other styles for responsiveness and interactions */
+    

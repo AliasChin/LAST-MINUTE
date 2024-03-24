@@ -1,0 +1,74 @@
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #fff;
+}
+
+.login-container {
+  width: 100%;
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.logo-container {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.logo {
+  width: 100px; /* Adjust size as needed */
+  margin-bottom: 10px;
+}
+
+h1 {
+  font-size: 20px;
+  margin-bottom: 5px;
+}
+
+.login-options {
+  margin-bottom: 20px;
+}
+
+.login-btn {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.phone-email {
+  background: #e8e8e8;
+  color: #333;
+}
+
+.facebook {
+  background: #3b5998;
+  color: #fff;
+}
+
+.google {
+  background: #db4437;
+  color: #fff;
+}
+
+.signup-link {
+  text-align: center;
+}
+
+.signup-link p {
+  font-size: 14px;
+}
+
+.signup-link a {
+  color: #000;
+  text-decoration: none;
+}
+
+/* Add additional styles for responsiveness and interactivity */

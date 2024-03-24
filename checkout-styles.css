@@ -1,0 +1,75 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Arial', sans-serif;
+  }
+  
+  .checkout-container {
+    max-width: 480px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+    font-size: 14px;
+  }
+  
+  .page-title h1 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .item-overview, .delivery-address, .payment-method, .voucher-section, .order-summary {
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .seller-info, .item-info {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .seller-icon {
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+    background-color: #ccc; /* Placeholder */
+    border-radius: 50%;
+  }
+  
+  button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .summary-details {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-bottom: 10px;
+  }
+  
+  .total-payment {
+    display: flex;
+    justify-content: space-between;
+    font-weight: bold;
+  }
+  
+  .bottom-nav {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: space-around;
+    background-color: #333;
+    padding: 10px 0
+  

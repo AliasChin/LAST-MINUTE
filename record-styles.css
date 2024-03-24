@@ -1,0 +1,78 @@
+body, h1, p {
+  margin: 0;
+  padding: 0;
+}
+
+.record-container {
+  position: relative;
+  max-width: 480px;
+  height: 100vh;
+  margin: 0 auto;
+  background: #000;
+  color: #fff;
+  font-family: Arial, sans-serif;
+}
+
+.settings-icon {
+  position: absolute;
+  top: 16px;
+  right: 16px;
+  width: 24px;
+  height: 24px;
+  background: url('settings-icon.png') no-repeat center center;
+  background-size: cover;
+}
+
+.record-content {
+  text-align: center;
+  padding-top: 50%; /* Adjust as needed */
+}
+
+.camera-icon {
+  display: inline-block;
+  width: 50px; /* Icon size */
+  height: 50px;
+  background: url('camera-icon.png') no-repeat center center;
+  background-size: cover;
+  margin-bottom: 16px;
+}
+
+.record-button {
+  position: absolute;
+  left: 50%;
+  bottom: 100px; /* Adjust as needed */
+  transform: translateX(-50%);
+  width: 60px; /* Button size */
+  height: 60px;
+  background: #4CAF50; /* Green background */
+  border-radius: 50%;
+}
+
+.refresh-icon {
+  position: absolute;
+  right: 50%;
+  bottom: 100px; /* Adjust as needed */
+  transform: translateX(50%);
+  width: 24px;
+  height: 24px;
+  background: url('refresh-icon.png') no-repeat center center;
+  background-size: cover;
+}
+
+.bottom-nav {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  justify-content: space-around;
+  background: #333;
+}
+
+.nav-item {
+  padding: 10px;
+  text-align: center;
+  color: #fff;
+}
+
+/* You may need to add specific classes for the icons or use an icons font library */

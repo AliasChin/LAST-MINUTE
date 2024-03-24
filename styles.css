@@ -1,0 +1,70 @@
+body, html {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  font-family: 'Arial', sans-serif;
+  background: #f7f7f7;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.signup-container {
+  width: 90%;
+  max-width: 400px;
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+  overflow: hidden;
+  padding: 20px;
+}
+
+.logo-container {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  
+  .logo {
+    width: 100px; /* Adjust size as needed */
+    margin-bottom: 10px;
+  }
+
+.signup-btn {
+  display: block;
+  width: calc(100% - 20px); /* Account for padding */
+  padding: 15px;
+  margin-bottom: 15px;
+  border: none;
+  border-radius: 5px;
+  font-size: 1em;
+  cursor: pointer;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.phone-email {
+  background: #e8e8e8;
+  color: #333;
+}
+
+.facebook {
+  background: #3b5998;
+  color: #fff;
+}
+
+.google {
+  background: #db4437;
+  color: #fff;
+}
+
+.login-link {
+  text-align: center;
+  font-size: 0.9em;
+  margin-top: 20px;
+}
+
+.login-link a {
+  color: #000;
+  text-decoration: none;
+}
+
+/* You can add @media queries for better responsiveness */

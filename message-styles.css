@@ -1,0 +1,105 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+}
+
+.messages-container {
+  max-width: 480px;
+  margin: auto;
+  background-color: #fff;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  background-color: #a8d08d;
+  padding: 10px;
+}
+
+.back-arrow {
+  width: 24px;
+  height: 24px;
+  background: url('back-arrow-icon.png') no-repeat center center;
+  background-size: cover;
+  margin-right: 10px;
+}
+
+.search-input {
+  flex-grow: 1;
+  border: none;
+  padding: 8px;
+}
+
+.messages-title {
+  padding: 10px;
+  font-size: 24px;
+  background-color: #a8d08d;
+  color: #fff;
+}
+
+.messages-list {
+  padding: 10px;
+}
+
+.message-item {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  border-bottom: 1px solid #eee;
+}
+
+.user-avatar {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.user-info {
+  flex-grow: 1;
+}
+
+.user-info h3 {
+  font-size: 16px;
+  color: #333;
+}
+
+.user-info p {
+  font-size: 12px;
+  color: #666;
+}
+
+.options-icon {
+  width: 20px;
+  height: 20px;
+  background: url('options-icon.png') no-repeat center center;
+  background-size: cover;
+}
+
+.bottom-nav {
+  display: flex;
+  justify-content: space-around;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #333;
+  color: white;
+}
+
+.nav-item {
+  padding: 10px 0;
+  text-align: center;
+}
+
+.nav-item.active {
+  color: #ffcd3c;
+}
+
+/* Add media queries and additional styling as needed */
